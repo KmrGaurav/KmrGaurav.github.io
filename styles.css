@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #D7D7D7;
+}
+
+.resume {
+  width: 1000px;
+  margin: 50px auto;
+}
+
+.resume .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100px;
+}
+
+.resume .name .initials {
+  background-color: #AA8F5A;
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.resume .name .initials p {
+  color: #364356;
+  font-size: 2rem;
+  margin: auto;
+}
+
+.resume .name .full-name {
+  background-color: #FF5E6B;
+  width: 800px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.resume .name .full-name p {
+  color: #364356;
+  font-size: 4rem;
+  margin: auto;
+}
+
+.resume .photo-and-skills {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #364356;
+  height: 250px;
+}
+
+.resume .photo-and-skills .photo {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.resume .photo-and-skills .photo img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.resume .photo-and-skills .skills {
+  width: 600px;
+}
+
+.resume .photo-and-skills .skills #heading {
+  color: #AA8F5A;
+  font-size: 1.5rem;
+  margin: 25px 40px;
+}
+
+.resume .photo-and-skills .skills .skills-list {
+  color: #D7D7D7;
+  font-size: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.resume .photo-and-skills .skills .skills-list ul {
+  list-style: none;
+}
+
+.resume .photo-and-skills .skills .skills-list ul li::before {
+  content: "\2022";
+  color: #AA8F5A;
+  display: inline-block;
+  /* Needed to add space between the bullet and the text */
+  width: 1em;
+  /* Also needed for space (tweak if needed) */
+  margin-left: -1em;
+  /* Also needed for space (tweak if needed) */
+}
+
+.resume .photo-and-skills .skills .skills-list ul li {
+  margin: 0 0 10px;
+}
