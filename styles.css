@@ -262,6 +262,14 @@ body {
           justify-content: space-between;
 }
 
-.resume .contact-education-experience .right-experience .experience .jobs-list .about-job .things-done li {
-  margin: 5px 0px;
+.resume .contact-education-experience .right-experience .experience .jobs-list .about-job .things-done {
+  list-style: none;
+}
+
+.resume .contact-education-experience .right-experience .experience .jobs-list .about-job .things-done li::before {
+  content: "\2022";
+  color: #364356;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
