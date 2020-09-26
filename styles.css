@@ -181,6 +181,34 @@ body {
   font-size: 1.5rem;
 }
 
+.resume .contact-education-experience .left-contact-education .education ul {
+  list-style: none;
+  padding: 0px;
+}
+
+.resume .contact-education-experience .left-contact-education .education ul li {
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+.resume .contact-education-experience .left-contact-education .education ul li p {
+  margin: 5px 0px;
+}
+
+.resume .contact-education-experience .left-contact-education .education ul li p a:link {
+  text-decoration: none;
+  color: #364356;
+}
+
+.resume .contact-education-experience .left-contact-education .education ul li p a:visited {
+  text-decoration: none;
+  color: #364356;
+}
+
+.resume .contact-education-experience .left-contact-education .education ul li p a:hover {
+  font-weight: bold;
+}
+
 .resume .contact-education-experience .right-experience {
   background-color: #FFFFFF;
   width: 600px;
