@@ -222,3 +222,46 @@ body {
   color: #364356;
   font-size: 1.5rem;
 }
+
+.resume .contact-education-experience .right-experience .experience .jobs-list {
+  list-style: none;
+  padding: 0px;
+}
+
+.resume .contact-education-experience .right-experience .experience .jobs-list .about-job {
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+.resume .contact-education-experience .right-experience .experience .jobs-list .about-job a:link {
+  text-decoration: none;
+  color: #364356;
+}
+
+.resume .contact-education-experience .right-experience .experience .jobs-list .about-job a:visited {
+  text-decoration: none;
+  color: #364356;
+}
+
+.resume .contact-education-experience .right-experience .experience .jobs-list .about-job a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.resume .contact-education-experience .right-experience .experience .jobs-list .about-job .job-title {
+  color: #AA8F5A;
+}
+
+.resume .contact-education-experience .right-experience .experience .jobs-list .about-job .company-name-and-duration {
+  font-style: italic;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.resume .contact-education-experience .right-experience .experience .jobs-list .about-job .things-done li {
+  margin: 5px 0px;
+}
