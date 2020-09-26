@@ -10,6 +10,8 @@ body {
 .resume {
   width: 1000px;
   margin: 50px auto;
+  -webkit-box-shadow: 0px 0px 50px #364356;
+          box-shadow: 0px 0px 50px #364356;
 }
 
 .resume .name {
@@ -51,6 +53,7 @@ body {
   color: #364356;
   font-size: 4rem;
   margin: auto;
+  text-shadow: 0px 0px 2px #364356;
 }
 
 .resume .photo-and-skills {
@@ -268,11 +271,11 @@ body {
 .resume .contact-education-experience-projects .right-experience-projects {
   background-color: #FFFFFF;
   width: 600px;
+  border-left: 2px solid #364356;
 }
 
 .resume .contact-education-experience-projects .right-experience-projects .experience {
   margin: 50px;
-  padding: 0;
 }
 
 .resume .contact-education-experience-projects .right-experience-projects .experience #experience-heading {
