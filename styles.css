@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: auto;
+  padding: 0;
 }
 
 body {
@@ -108,32 +108,32 @@ body {
   margin-left: -1em;
 }
 
-.resume .contact-education-experience {
+.resume .contact-education-experience-projects {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.resume .contact-education-experience .left-contact-education {
+.resume .contact-education-experience-projects .left-contact-education {
   background-color: #EFEFED;
   width: 400px;
 }
 
-.resume .contact-education-experience .left-contact-education .contact {
+.resume .contact-education-experience-projects .left-contact-education .contact {
   margin: 50px;
 }
 
-.resume .contact-education-experience .left-contact-education .contact #contact-heading {
+.resume .contact-education-experience-projects .left-contact-education .contact #contact-heading {
   color: #364356;
   font-size: 1.5rem;
 }
 
-.resume .contact-education-experience .left-contact-education .contact ul {
+.resume .contact-education-experience-projects .left-contact-education .contact ul {
   list-style: none;
   padding: 0px;
 }
 
-.resume .contact-education-experience .left-contact-education .contact ul li {
+.resume .contact-education-experience-projects .left-contact-education .contact ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -141,7 +141,7 @@ body {
   font-size: 1rem;
 }
 
-.resume .contact-education-experience .left-contact-education .contact ul li .fa {
+.resume .contact-education-experience-projects .left-contact-education .contact ul li .fa {
   background-color: #FF5E6B;
   color: #FFFFFF;
   font-size: 24px;
@@ -154,105 +154,105 @@ body {
           box-shadow: 0px 0px 2px #888;
 }
 
-.resume .contact-education-experience .left-contact-education .contact ul li p {
+.resume .contact-education-experience-projects .left-contact-education .contact ul li p {
   margin: 5px 20px;
 }
 
-.resume .contact-education-experience .left-contact-education .contact ul li p a:link {
+.resume .contact-education-experience-projects .left-contact-education .contact ul li p a:link {
   text-decoration: none;
   color: #364356;
 }
 
-.resume .contact-education-experience .left-contact-education .contact ul li p a:visited {
+.resume .contact-education-experience-projects .left-contact-education .contact ul li p a:visited {
   text-decoration: none;
   color: #364356;
 }
 
-.resume .contact-education-experience .left-contact-education .contact ul li p a:hover {
+.resume .contact-education-experience-projects .left-contact-education .contact ul li p a:hover {
   text-decoration: underline;
 }
 
-.resume .contact-education-experience .left-contact-education .education {
+.resume .contact-education-experience-projects .left-contact-education .education {
   margin: 50px;
 }
 
-.resume .contact-education-experience .left-contact-education .education #education-heading {
+.resume .contact-education-experience-projects .left-contact-education .education #education-heading {
   color: #364356;
   font-size: 1.5rem;
 }
 
-.resume .contact-education-experience .left-contact-education .education ul {
+.resume .contact-education-experience-projects .left-contact-education .education ul {
   list-style: none;
   padding: 0px;
 }
 
-.resume .contact-education-experience .left-contact-education .education ul li {
+.resume .contact-education-experience-projects .left-contact-education .education ul li {
   margin: 20px 0;
   font-size: 1rem;
 }
 
-.resume .contact-education-experience .left-contact-education .education ul li p {
+.resume .contact-education-experience-projects .left-contact-education .education ul li p {
   margin: 5px 0px;
 }
 
-.resume .contact-education-experience .left-contact-education .education ul li p a:link {
+.resume .contact-education-experience-projects .left-contact-education .education ul li p a:link {
   text-decoration: none;
   color: #364356;
 }
 
-.resume .contact-education-experience .left-contact-education .education ul li p a:visited {
+.resume .contact-education-experience-projects .left-contact-education .education ul li p a:visited {
   text-decoration: none;
   color: #364356;
 }
 
-.resume .contact-education-experience .left-contact-education .education ul li p a:hover {
+.resume .contact-education-experience-projects .left-contact-education .education ul li p a:hover {
   font-weight: bold;
 }
 
-.resume .contact-education-experience .right-experience {
+.resume .contact-education-experience-projects .right-experience-projects {
   background-color: #FFFFFF;
   width: 600px;
 }
 
-.resume .contact-education-experience .right-experience .experience {
+.resume .contact-education-experience-projects .right-experience-projects .experience {
   margin: 50px;
+  padding: 0;
 }
 
-.resume .contact-education-experience .right-experience .experience #experience-heading {
+.resume .contact-education-experience-projects .right-experience-projects .experience #experience-heading {
   color: #364356;
   font-size: 1.5rem;
 }
 
-.resume .contact-education-experience .right-experience .experience .jobs-list {
+.resume .contact-education-experience-projects .right-experience-projects .experience .jobs-list {
   list-style: none;
-  padding: 0px;
 }
 
-.resume .contact-education-experience .right-experience .experience .jobs-list .about-job {
+.resume .contact-education-experience-projects .right-experience-projects .experience .jobs-list .about-job {
   margin: 20px 0;
   font-size: 1rem;
 }
 
-.resume .contact-education-experience .right-experience .experience .jobs-list .about-job a:link {
+.resume .contact-education-experience-projects .right-experience-projects .experience .jobs-list .about-job a:link {
   text-decoration: none;
   color: #364356;
 }
 
-.resume .contact-education-experience .right-experience .experience .jobs-list .about-job a:visited {
+.resume .contact-education-experience-projects .right-experience-projects .experience .jobs-list .about-job a:visited {
   text-decoration: none;
   color: #364356;
 }
 
-.resume .contact-education-experience .right-experience .experience .jobs-list .about-job a:hover {
+.resume .contact-education-experience-projects .right-experience-projects .experience .jobs-list .about-job a:hover {
   font-weight: bold;
   text-decoration: underline;
 }
 
-.resume .contact-education-experience .right-experience .experience .jobs-list .about-job .job-title {
+.resume .contact-education-experience-projects .right-experience-projects .experience .jobs-list .about-job .job-title {
   color: #AA8F5A;
 }
 
-.resume .contact-education-experience .right-experience .experience .jobs-list .about-job .company-name-and-duration {
+.resume .contact-education-experience-projects .right-experience-projects .experience .jobs-list .about-job .company-name-and-duration {
   font-style: italic;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -262,11 +262,62 @@ body {
           justify-content: space-between;
 }
 
-.resume .contact-education-experience .right-experience .experience .jobs-list .about-job .things-done {
+.resume .contact-education-experience-projects .right-experience-projects .experience .jobs-list .about-job .things-done {
+  padding: 0.25rem 2.5rem;
   list-style: none;
 }
 
-.resume .contact-education-experience .right-experience .experience .jobs-list .about-job .things-done li::before {
+.resume .contact-education-experience-projects .right-experience-projects .experience .jobs-list .about-job .things-done li::before {
+  content: "\2022";
+  color: #364356;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.resume .contact-education-experience-projects .right-experience-projects .projects {
+  margin: 50px;
+}
+
+.resume .contact-education-experience-projects .right-experience-projects .projects #projects-heading {
+  color: #364356;
+  font-size: 1.5rem;
+}
+
+.resume .contact-education-experience-projects .right-experience-projects .projects .projects-list {
+  list-style: none;
+}
+
+.resume .contact-education-experience-projects .right-experience-projects .projects .projects-list .about-project {
+  margin: 20px 0;
+  font-size: 1rem;
+}
+
+.resume .contact-education-experience-projects .right-experience-projects .projects .projects-list .about-project a:link {
+  text-decoration: none;
+  color: #364356;
+}
+
+.resume .contact-education-experience-projects .right-experience-projects .projects .projects-list .about-project a:visited {
+  text-decoration: none;
+  color: #364356;
+}
+
+.resume .contact-education-experience-projects .right-experience-projects .projects .projects-list .about-project a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.resume .contact-education-experience-projects .right-experience-projects .projects .projects-list .about-project .project-title {
+  color: #AA8F5A;
+}
+
+.resume .contact-education-experience-projects .right-experience-projects .projects .projects-list .about-project .things-done {
+  padding: 0.25rem 2.5rem;
+  list-style: none;
+}
+
+.resume .contact-education-experience-projects .right-experience-projects .projects .projects-list .about-project .things-done li::before {
   content: "\2022";
   color: #364356;
   display: inline-block;
